@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Fetch Product</title>
+</head>
+<body>
+<hr/>
+<div class="container">
+    <div class="row">
+		Product Id: <input type="text" name="Product Id" class="fetchById" ><br>
+		<button type="submit" onclick="getProductById()">Fetch</button>
+		<a href="index.html">back to main</a>
+    </div>
+    
+     <div class="row updatePhase">
+		Product Name: <input type="text" name="Product name" class="fetchedProductname" ><br>
+		Price: <input type="text" name="price" class="fetchedprice"><br><br>
+		<button type="submit" onclick="update()">Update</button>
+    </div>
+    <hr/>
+     <p id="datafound"></p>
+</div>
+</body>
+<script src="JavaScript/main.js"></script>
+<link rel="stylesheet" href="CSS/style.css"/>
+</html>
