@@ -1,0 +1,11 @@
+sudo: required
+services:
+   - docker
+language: java
+jdk: oraclejdk8
+
+before_install:
+  - docker build -t shubgene/RestApiWithUI .
+
+script:
+   -docker run shubgene/RestApiWithUI mvn test -B
