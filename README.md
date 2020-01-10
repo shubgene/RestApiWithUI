@@ -1,6 +1,8 @@
 # RestApiWithUI
 
-Run app 
+Run app as standalone application
+
+or
 
 docker build -t container-name .
 
